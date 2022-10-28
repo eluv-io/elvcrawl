@@ -1,5 +1,6 @@
 #![allow(dead_code, clippy::box_collection)]
 
+
 use serde::{Deserialize, Serialize};
 use serde_json::{Value};
 use std::{cmp::min, error::Error};
@@ -204,8 +205,9 @@ pub struct FieldConfig {
 #[cfg(test)]
 mod tests {
     // Note this useful idiom: importing names from outer (for mod tests) scope.
+    extern crate test_utils;
     use super::*;
-    use test_utils::test_metadata::INDEX_CONFIG;
+//    use test_utils::test_metadata;
     use serde_json::json;
     use elvwasm::{BitcodeContext, Request};
     use std::collections::hash_map::RandomState;
@@ -219,7 +221,7 @@ mod tests {
 
     #[test]
     fn test_parse_index_config() -> () {
-        let index_object_meta: Value = serde_json::from_str(INDEX_CONFIG)
+        let index_object_meta: Value = serde_json::from_str(test_utils::test_metadata::INDEX_CONFIG)
             .expect("Could not read index object into json value.");
         let config_value: &Value = &index_object_meta["indexer"]["config"];
         let indexer_config: IndexerConfig = IndexerConfig::parse_index_config(config_value)
@@ -240,7 +242,7 @@ mod tests {
     }
     #[test]
     fn test_crawler() ->  () {
-        let index_object_meta: Value = serde_json::from_str(INDEX_CONFIG)
+        let index_object_meta: Value = serde_json::from_str(test_utils::test_metadata::INDEX_CONFIG)
             .expect("Could not read index object into json value.");
         let config_value: &Value = &index_object_meta["indexer"]["config"];
         let indexer_config: IndexerConfig = IndexerConfig::parse_index_config(config_value)

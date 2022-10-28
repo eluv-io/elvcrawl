@@ -164,22 +164,19 @@ mod tests{
     extern crate json_dotpath;
     extern crate snailquote;
     extern crate tempdir;
+
+    use super::*;
     use std::sync::{Arc};
     use elvwasm::ErrorKinds;
     use std::fs::File;
     use std::io::BufReader;
-    use json_dotpath::DotPaths;
-    use test_utils::test_metadata::INDEX_CONFIG;
+    use indexer::tests::json_dotpath::DotPaths;
     use elvwasm::Request;
     use std::collections::hash_map::RandomState;
     use crate::{crawler};
     use std::collections::HashMap;
     use serde_json::Value;
     use elvwasm::BitcodeContext;
-
-
-    use tantivy_jpc::tests::{FakeContext, TestDocument};
-
 
     use serde::{Deserialize, Serialize};
     pub static mut QFAB: MockFabric = MockFabric{
@@ -285,10 +282,10 @@ mod tests{
 
     #[derive(Serialize, Deserialize,  Clone, Debug)]
     pub struct MockFabric{
-        ctx: Option<FakeContext>,
+        ctx: Option<tantivy_jpc::tests::FakeContext>,
         fab : Option<RootMockFabric>,
         resp: Vec<u8>,
-        docs: Vec<TestDocument>
+        docs: Vec<tantivy_jpc::tests::TestDocument>
     }
 
     #[derive(Serialize, Deserialize, Clone, Debug)]
@@ -382,7 +379,7 @@ mod tests{
             Ok(format!(r#"{{"result": "{}"}}"#, enc).as_bytes().to_vec())
         }
         pub fn new_index_builder(&mut self, _dir:&str)-> std::result::Result<Value, Box<dyn std::error::Error + Send + Sync>>{
-            self.ctx = Some(FakeContext::new());
+            self.ctx = Some(tantivy_jpc::tests::FakeContext::new());
             Ok(json!("DONE"))
         }
         pub fn archive_index_to_part(&mut self, _dir:&str)-> std::result::Result<Vec<u8>, Box<dyn std::error::Error + Send + Sync>>{
@@ -538,10 +535,9 @@ mod tests{
         }
     }
 
-    use super::*;
     #[test]
     fn test_index() -> () {
-        let index_object_meta: Value = serde_json::from_str(INDEX_CONFIG)
+        let index_object_meta: Value = serde_json::from_str(test_utils::test_metadata::INDEX_CONFIG)
             .expect("Could not read index object into json value.");
         let config_value: &Value = &index_object_meta["indexer"]["config"];
         let indexer_config: crawler::IndexerConfig = crawler::IndexerConfig::parse_index_config(config_value)

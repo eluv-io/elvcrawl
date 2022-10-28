@@ -1,3 +1,4 @@
+#![feature(backtrace)]
 extern crate elvwasm;
 extern crate serde_json;
 extern crate serde;

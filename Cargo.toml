@@ -13,9 +13,9 @@ name = "elvcrawl"
 crate-type = ["rlib", "cdylib"]
 
 [dependencies]
-elvwasm = {git = "https://github.com/eluv-io/elv_wasm", branch = "main"}
-wapc = "*"
-wapc-guest = "*"
+elvwasm = { git = "https://github.com/eluv-io/elv_wasm", branch = "main" }
+wapc = "0.10.1"
+wapc-guest = "0.4.0"
 serde = "*"
 serde_json = "*"
 serde_derive = "*"
@@ -28,12 +28,13 @@ base64 = "0.13.0"
 thiserror = "1.0.30"
 petgraph = "0.6.2"
 
+
 [dev-dependencies]
 test-utils = {path = "test-utils"}
 tantivy_jpc = { git = "https://github.com/JanFalkin/tantivy_jpc", branch = "master" }
-#tantivy_jpc = { path = "../../../tantivy_jpc"}
 wasmer = "2.1.1"
 json_dotpath = "1.1.0"
 structopt = "0.3.25"
 wasmer-compiler-cranelift = "2.1.1"
 tempdir = "*"
+
