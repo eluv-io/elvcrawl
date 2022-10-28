@@ -1,0 +1,86 @@
+{
+  "commit": {
+    "author": "eluvio-test-elv-admin",
+    "author_address": "0xc05e0274158442b7d595e5ac6d483d18df8fc93e",
+    "message": "adds 3 titles",
+    "timestamp": "2022-03-30T18:03:14.724Z"
+  },
+  "public": {
+    "asset_metadata": {
+      "asset_type": "primary",
+      "display_title": "Testv4 Test Site 1",
+      "episodes": {},
+      "images": {},
+      "info": {
+        "copyright": "",
+        "creator": "",
+        "release_date": "",
+        "runtime": null,
+        "synopsis": "",
+        "talent": {}
+      },
+      "playlists": {},
+      "seasons": {},
+      "series": {},
+      "slug": "testv4-test-site-1",
+      "title": "Testv4 Test Site 1",
+      "title_type": "collection",
+      "titles": {
+        "0": {
+          "01-llama-drama": {
+            ".": {
+              "auto_update": { "tag": "latest" },
+              "container": "hq__A4XLpb4fjLnRYou8f6ZUArm7haVKjgtTnqxJBSXwdQbFNscRXfN18Rnq3UZgVX1bMqHmReEm1h"
+            },
+            "/": "/qfab/hq__9RMCX7W5USnbWygLo74AagQfejz2PbDrTg2nBKKFyCsRo3RZkkztGwvJtKX6452t9WShqXomWk/meta/public/asset_metadata"
+          }
+        },
+        "1": {
+          "01-llama-drama": {
+            ".": {
+              "auto_update": { "tag": "latest" },
+              "container": "hq__A4XLpb4fjLnRYou8f6ZUArm7haVKjgtTnqxJBSXwdQbFNscRXfN18Rnq3UZgVX1bMqHmReEm1h"
+            },
+            "/": "/qfab/hq__KLdc7eXVZvCdZEoZputvmq5eXC8fgToJKuLkSraeydGftDZK8Nyd4BnxYkLzyEascDXWLHBdRr/meta/public/asset_metadata"
+          }
+        },
+        "2": {
+          "03-caminandes-llamigos": {
+            ".": {
+              "auto_update": { "tag": "latest" },
+              "container": "hq__A4XLpb4fjLnRYou8f6ZUArm7haVKjgtTnqxJBSXwdQbFNscRXfN18Rnq3UZgVX1bMqHmReEm1h"
+            },
+            "/": "/qfab/hq__AJbY8ghCrkzoB9fVQqnHybxb3LZ5qwNG7SKViK1gcCrAnScdY8kFaix5qQ9poc7EHQ4N3wjpc6/meta/public/asset_metadata"
+          }
+        }
+      }
+    },
+    "description": "",
+    "name": "Testv4 Test Site 1"
+  },
+  "site_map": {
+    "searchables": {
+      "01-llama-drama": {
+        ".": {
+          "auto_update": { "tag": "latest" },
+          "container": "hq__A4XLpb4fjLnRYou8f6ZUArm7haVKjgtTnqxJBSXwdQbFNscRXfN18Rnq3UZgVX1bMqHmReEm1h"
+        },
+        "/": "/qfab/hq__GdNFH3vXqzQEcCSuF9ZaGHqsJGcQJGeUrG1wkukfH9rv4xtEoP3kkMVBnjsL29anh3ogJu33hv/meta/searchables"
+      },
+      "02-gran-dilemna": {
+        ".": {
+          "auto_update": { "tag": "latest" },
+          "container": "hq__A4XLpb4fjLnRYou8f6ZUArm7haVKjgtTnqxJBSXwdQbFNscRXfN18Rnq3UZgVX1bMqHmReEm1h"
+        },
+        "/": "/qfab/hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN/meta/searchables"
+      },
+      "03-caminandes-llamigos": {
+        ".": {
+          "auto_update": { "tag": "latest" },
+          "container": "hq__A4XLpb4fjLnRYou8f6ZUArm7haVKjgtTnqxJBSXwdQbFNscRXfN18Rnq3UZgVX1bMqHmReEm1h"
+        },
+        "/": "/qfab/hq__9G79fi7NKap3TD29EZSFGJbZTpaK8cYXPdUk5TkMkxZGg8E8B5A3QfdmzRcjyZHLBYdDH4RMWn/meta/searchables"
+      }
+    }
+  }
+}

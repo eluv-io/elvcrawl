@@ -1,0 +1,39 @@
+[package]
+
+name = "elvcrawl"
+version = "0.0.1"
+authors = ["elvcrawl <jan.falkin@eluv.io>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/JanFalkin/elvcrawl"
+description = "A Rust wasm library"
+
+[lib]
+name = "elvcrawl"
+crate-type = ["rlib", "cdylib"]
+
+[dependencies]
+elvwasm = {git = "https://github.com/eluv-io/elv_wasm", branch = "main"}
+wapc = "*"
+wapc-guest = "*"
+serde = "*"
+serde_json = "*"
+serde_derive = "*"
+linked-hash-map = { version = "*", features = ["serde_impl"] }
+indexmap = {version = "*", features = ["serde-1"]}
+lazy_static = "1.4.0"
+snailquote = "0.3.0"
+scopeguard = "1.1.0"
+base64 = "0.13.0"
+thiserror = "1.0.30"
+petgraph = "0.6.2"
+
+[dev-dependencies]
+test-utils = {path = "test-utils"}
+tantivy_jpc = { git = "https://github.com/JanFalkin/tantivy_jpc", branch = "master" }
+#tantivy_jpc = { path = "../../../tantivy_jpc"}
+wasmer = "2.1.1"
+json_dotpath = "1.1.0"
+structopt = "0.3.25"
+wasmer-compiler-cranelift = "2.1.1"
+tempdir = "*"

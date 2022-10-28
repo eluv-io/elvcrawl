@@ -1,0 +1,1496 @@
+{
+  "abr_mezzanine": {
+    "log": { "Level": 3, "entries": [] },
+    "offerings": {
+      "default": {
+        "drm_optional": true,
+        "entry_point_rat": null,
+        "exit_point_rat": null,
+        "image_watermark": null,
+        "json_patch": "",
+        "log": {
+          "Level": 3,
+          "entries": [
+            { "l": 4, "m": "apiAbrMezzanineInit()", "t": 1648232737202667800 },
+            {
+              "l": 3,
+              "m": "Using abr.Profile override in http request",
+              "t": 1648232737207307300
+            },
+            { "l": 3, "m": "Get production.Master", "t": 1648232737279233000 },
+            {
+              "l": 4,
+              "m": "getProductionVariantCtx(hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL,default)",
+              "t": 1648232737279243800
+            },
+            {
+              "l": 4,
+              "m": "getting production.Master: hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL",
+              "t": 1648232737279244800
+            },
+            {
+              "l": 4,
+              "m": "Get production.Variant 'default' from production.Master",
+              "t": 1648232737284250000
+            },
+            { "l": 3, "m": "Generate abr.Offering", "t": 1648232737284267800 }
+          ]
+        },
+        "max_play_seconds": 0,
+        "media_struct": {
+          "duration_rat": "18256/125",
+          "label": "",
+          "start_time_rat": "0",
+          "streams": {
+            "audio": {
+              "bit_rate": 127229,
+              "channel_layout": "stereo",
+              "channels": 2,
+              "codec_name": "aac",
+              "codec_type": "audio",
+              "default_for_media_type": false,
+              "duration": {
+                "float": 146.048,
+                "float_exact": false,
+                "rat": "18256/125",
+                "time_base": "1/48000",
+                "ts": 7010304
+              },
+              "label": "",
+              "language": "",
+              "optimum_seg_dur": {
+                "float": 2.005333333333333,
+                "float_exact": false,
+                "rat": "752/375",
+                "time_base": "1/48000",
+                "ts": 96256
+              },
+              "rate": "48000",
+              "sources": [
+                {
+                  "duration": {
+                    "float": 30.08,
+                    "float_exact": false,
+                    "rat": "752/25",
+                    "time_base": "1/48000",
+                    "ts": 1443840
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/48000",
+                    "ts": 0
+                  },
+                  "source": "hqpeDaGCiRPGmq6S9fpEKwW1gxhqKr7MKKqj5y1Jwxq3ZywUR6wA",
+                  "timeline_end": {
+                    "float": 30.08,
+                    "float_exact": false,
+                    "rat": "752/25",
+                    "time_base": "1/48000",
+                    "ts": 1443840
+                  },
+                  "timeline_start": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/48000",
+                    "ts": 0
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 30.08,
+                    "float_exact": false,
+                    "rat": "752/25",
+                    "time_base": "1/48000",
+                    "ts": 1443840
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/48000",
+                    "ts": 0
+                  },
+                  "source": "hqpe8TAVsMARpvAKXM2gN7qoURF2e2CBykyaFNVxwkh68ExbqjGV",
+                  "timeline_end": {
+                    "float": 60.16,
+                    "float_exact": false,
+                    "rat": "1504/25",
+                    "time_base": "1/48000",
+                    "ts": 2887680
+                  },
+                  "timeline_start": {
+                    "float": 30.08,
+                    "float_exact": false,
+                    "rat": "752/25",
+                    "time_base": "1/48000",
+                    "ts": 1443840
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 30.08,
+                    "float_exact": false,
+                    "rat": "752/25",
+                    "time_base": "1/48000",
+                    "ts": 1443840
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/48000",
+                    "ts": 0
+                  },
+                  "source": "hqpe6UDBpwBjnvccUjBbFHCEUdC238n8PF8ucfRtM7eUzAYDuhxM",
+                  "timeline_end": {
+                    "float": 90.24,
+                    "float_exact": false,
+                    "rat": "2256/25",
+                    "time_base": "1/48000",
+                    "ts": 4331520
+                  },
+                  "timeline_start": {
+                    "float": 60.16,
+                    "float_exact": false,
+                    "rat": "1504/25",
+                    "time_base": "1/48000",
+                    "ts": 2887680
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 30.08,
+                    "float_exact": false,
+                    "rat": "752/25",
+                    "time_base": "1/48000",
+                    "ts": 1443840
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/48000",
+                    "ts": 0
+                  },
+                  "source": "hqpeKm5XrUtWZ3Cerxj5t9rTKzzaTAWuYnjy4DEFbxFFBaqVGGjs",
+                  "timeline_end": {
+                    "float": 120.32,
+                    "float_exact": false,
+                    "rat": "3008/25",
+                    "time_base": "1/48000",
+                    "ts": 5775360
+                  },
+                  "timeline_start": {
+                    "float": 90.24,
+                    "float_exact": false,
+                    "rat": "2256/25",
+                    "time_base": "1/48000",
+                    "ts": 4331520
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 25.728,
+                    "float_exact": false,
+                    "rat": "3216/125",
+                    "time_base": "1/48000",
+                    "ts": 1234944
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/48000",
+                    "ts": 0
+                  },
+                  "source": "hqpeQrWpTxugMVCanW4mPNgQc7634uPGeyqRiuyqgja61vxsrLcZ",
+                  "timeline_end": {
+                    "float": 146.048,
+                    "float_exact": false,
+                    "rat": "18256/125",
+                    "time_base": "1/48000",
+                    "ts": 7010304
+                  },
+                  "timeline_start": {
+                    "float": 120.32,
+                    "float_exact": false,
+                    "rat": "3008/25",
+                    "time_base": "1/48000",
+                    "ts": 5775360
+                  }
+                }
+              ],
+              "start_time": {
+                "float": 0,
+                "float_exact": true,
+                "rat": "0",
+                "time_base": "1/48000",
+                "ts": 0
+              },
+              "time_base": "1/48000"
+            },
+            "video": {
+              "aspect_ratio": "16/9",
+              "bit_rate": 8724142,
+              "codec_name": "h264",
+              "codec_type": "video",
+              "default_for_media_type": false,
+              "duration": {
+                "float": 146,
+                "float_exact": true,
+                "rat": "146",
+                "time_base": "1/24000",
+                "ts": 3504000
+              },
+              "hdr": null,
+              "height": 1080,
+              "label": "",
+              "language": "",
+              "nb_frames": 1,
+              "optimum_seg_dur": {
+                "float": 2,
+                "float_exact": true,
+                "rat": "2",
+                "time_base": "1/24000",
+                "ts": 48000
+              },
+              "rate": "24",
+              "sources": [
+                {
+                  "duration": {
+                    "float": 30,
+                    "float_exact": true,
+                    "rat": "30",
+                    "time_base": "1/24000",
+                    "ts": 720000
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/24000",
+                    "ts": 0
+                  },
+                  "source": "hqpe2p7GTT9VpwPpm2M2nbGjj6tsw7NruWZDgR3SEd9fditW4MRedL",
+                  "timeline_end": {
+                    "float": 30,
+                    "float_exact": true,
+                    "rat": "30",
+                    "time_base": "1/24000",
+                    "ts": 720000
+                  },
+                  "timeline_start": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/24000",
+                    "ts": 0
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 30,
+                    "float_exact": true,
+                    "rat": "30",
+                    "time_base": "1/24000",
+                    "ts": 720000
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/24000",
+                    "ts": 0
+                  },
+                  "source": "hqpehQEVDiDyLkVKUZnFxnSB6raq96YaU4tdqt8od9SoUuEacAX75",
+                  "timeline_end": {
+                    "float": 60,
+                    "float_exact": true,
+                    "rat": "60",
+                    "time_base": "1/24000",
+                    "ts": 1440000
+                  },
+                  "timeline_start": {
+                    "float": 30,
+                    "float_exact": true,
+                    "rat": "30",
+                    "time_base": "1/24000",
+                    "ts": 720000
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 30,
+                    "float_exact": true,
+                    "rat": "30",
+                    "time_base": "1/24000",
+                    "ts": 720000
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/24000",
+                    "ts": 0
+                  },
+                  "source": "hqpe9mFdC6CvcQUBCAVM9M3KKNiNcVrdhFYm2n82wR5rws5spR2EB",
+                  "timeline_end": {
+                    "float": 90,
+                    "float_exact": true,
+                    "rat": "90",
+                    "time_base": "1/24000",
+                    "ts": 2160000
+                  },
+                  "timeline_start": {
+                    "float": 60,
+                    "float_exact": true,
+                    "rat": "60",
+                    "time_base": "1/24000",
+                    "ts": 1440000
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 30,
+                    "float_exact": true,
+                    "rat": "30",
+                    "time_base": "1/24000",
+                    "ts": 720000
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/24000",
+                    "ts": 0
+                  },
+                  "source": "hqpe2oFkZGLH38s7yKBmew1uNyjdyZcuqS41uVPmbGMCCRXJGh4D8r",
+                  "timeline_end": {
+                    "float": 120,
+                    "float_exact": true,
+                    "rat": "120",
+                    "time_base": "1/24000",
+                    "ts": 2880000
+                  },
+                  "timeline_start": {
+                    "float": 90,
+                    "float_exact": true,
+                    "rat": "90",
+                    "time_base": "1/24000",
+                    "ts": 2160000
+                  }
+                },
+                {
+                  "duration": {
+                    "float": 26,
+                    "float_exact": true,
+                    "rat": "26",
+                    "time_base": "1/24000",
+                    "ts": 624000
+                  },
+                  "entry_point": {
+                    "float": 0,
+                    "float_exact": true,
+                    "rat": "0",
+                    "time_base": "1/24000",
+                    "ts": 0
+                  },
+                  "source": "hqpea1ZCUPhtoR2ZDWp6gDjVqi2Y1TAz4k8EhQmrN3dquMdVmf4Bh",
+                  "timeline_end": {
+                    "float": 146,
+                    "float_exact": true,
+                    "rat": "146",
+                    "time_base": "1/24000",
+                    "ts": 3504000
+                  },
+                  "timeline_start": {
+                    "float": 120,
+                    "float_exact": true,
+                    "rat": "120",
+                    "time_base": "1/24000",
+                    "ts": 2880000
+                  }
+                }
+              ],
+              "start_time": {
+                "float": 0,
+                "float_exact": true,
+                "rat": "0",
+                "time_base": "1/24000",
+                "ts": 0
+              },
+              "time_base": "1/24000",
+              "width": 1920
+            }
+          }
+        },
+        "mez_prep_specs": {
+          "audio": {
+            "billing_items": [
+              {
+                "created_at": "2022-03-25T18:25:37.347873043Z",
+                "creation_request_id": "2e44efaf-8ba3-4c4b-bb25-18696ea5f453",
+                "description": "Transcode for stream 'audio', master variant 'default'",
+                "dest_bitrate": 128000,
+                "dest_channels": 2,
+                "dest_codec": "aac",
+                "dest_count": 1,
+                "dest_media_type": "audio",
+                "dest_rate": "48000",
+                "source_bitrate": 125375,
+                "source_channels": 2,
+                "source_codec": "aac",
+                "source_count": 1,
+                "source_duration_rat": "3505/24",
+                "source_media_type": "audio",
+                "source_rate": "48000",
+                "type": "ingest"
+              }
+            ],
+            "bit_rate": 128000,
+            "channel_count": 2,
+            "channel_layout": "stereo",
+            "default_for_media_type": false,
+            "encoding": "aac",
+            "label": "",
+            "language": "",
+            "mapping_info": "",
+            "media_type": "audio",
+            "mez_count": 5,
+            "name": "audio",
+            "part_hashes": [
+              "hqpeDaGCiRPGmq6S9fpEKwW1gxhqKr7MKKqj5y1Jwxq3ZywUR6wA",
+              "hqpe8TAVsMARpvAKXM2gN7qoURF2e2CBykyaFNVxwkh68ExbqjGV",
+              "hqpe6UDBpwBjnvccUjBbFHCEUdC238n8PF8ucfRtM7eUzAYDuhxM",
+              "hqpeKm5XrUtWZ3Cerxj5t9rTKzzaTAWuYnjy4DEFbxFFBaqVGGjs",
+              "hqpeQrWpTxugMVCanW4mPNgQc7634uPGeyqRiuyqgja61vxsrLcZ"
+            ],
+            "ready": true,
+            "seg_dur": {
+              "float": 2.005333333333333,
+              "float_exact": false,
+              "rat": "752/375",
+              "time_base": "1/48000",
+              "ts": 96256
+            },
+            "segs_per_mez": 15,
+            "source_streams": [
+              {
+                "files_api_path": "02_gran_dillama_1080p.mp4",
+                "source_hash": "hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL",
+                "stream_index": 1
+              }
+            ],
+            "store_clear": false
+          },
+          "video": {
+            "billing_items": [
+              {
+                "created_at": "2022-03-25T18:25:37.347730359Z",
+                "creation_request_id": "2e44efaf-8ba3-4c4b-bb25-18696ea5f453",
+                "description": "Transcode for stream 'video', master variant 'default'",
+                "dest_bitrate": 9500000,
+                "dest_codec": "h264",
+                "dest_count": 1,
+                "dest_height": 1080,
+                "dest_media_type": "video",
+                "dest_rate": "24",
+                "dest_width": 1920,
+                "source_bitrate": 6767512,
+                "source_codec": "h264",
+                "source_count": 1,
+                "source_duration_rat": "3505/24",
+                "source_height": 1080,
+                "source_media_type": "video",
+                "source_rate": "24",
+                "source_width": 1920,
+                "type": "ingest"
+              }
+            ],
+            "bit_depth": 0,
+            "bit_rate": 9500000,
+            "crf": 0,
+            "default_for_media_type": false,
+            "encoding": "h264",
+            "hdr": null,
+            "height": 1080,
+            "key_frame_interval": 48,
+            "label": "",
+            "language": "",
+            "mapping_info": "",
+            "media_type": "video",
+            "mez_count": 5,
+            "name": "video",
+            "part_hashes": [
+              "hqpe2p7GTT9VpwPpm2M2nbGjj6tsw7NruWZDgR3SEd9fditW4MRedL",
+              "hqpehQEVDiDyLkVKUZnFxnSB6raq96YaU4tdqt8od9SoUuEacAX75",
+              "hqpe9mFdC6CvcQUBCAVM9M3KKNiNcVrdhFYm2n82wR5rws5spR2EB",
+              "hqpe2oFkZGLH38s7yKBmew1uNyjdyZcuqS41uVPmbGMCCRXJGh4D8r",
+              "hqpea1ZCUPhtoR2ZDWp6gDjVqi2Y1TAz4k8EhQmrN3dquMdVmf4Bh"
+            ],
+            "preset": "",
+            "ready": true,
+            "seg_dur": {
+              "float": 2,
+              "float_exact": true,
+              "rat": "2",
+              "time_base": "1/24000",
+              "ts": 48000
+            },
+            "segs_per_mez": 15,
+            "source_streams": [
+              {
+                "files_api_path": "02_gran_dillama_1080p.mp4",
+                "source_hash": "hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL",
+                "stream_index": 0
+              }
+            ],
+            "store_clear": false,
+            "width": 1920
+          }
+        },
+        "offer_as_live": false,
+        "offer_live_seg_count": 0,
+        "play_mode": null,
+        "playout": {
+          "drm_keys": {
+            "3ab809e9f478795205438d609ee295de": {
+              ".": {
+                "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+              },
+              "/": "./blob",
+              "data": "t3GMw83nGoL6Pw1x5RoP3Fb+0f6qdUztTb3ylwAAABAECLH8Zh1ZYQaLoEUpRo7KOJ9o+GIzHnUDaTS/a+2HbpdlvLnEHwO+rc00ELMldrTvAycx6X89ZQz69MJUePgOZiazY11HpzCf9Kdztn0Dp1a3Om4BLVOPGjjP+CrWDquMGf3MghPiKTCAy7jkTIXGmaQA+6s1vO67dtijuceQQtBDJ84GK9glvtAl0NEFqfhxFlOc3C9VnHATyl1JS8LdWQC7MTCQi+8WTU+bJk3MM/VDFF+nZMGvsG17RhP366h/AGOu8s/fzXxZnklWivcxf9wpsRkL87zoXKD67747LVDlFZ7Kuai47a0zVtM7SKxxCHae8eWBDms+bttEnQ3FjhGFjpAhBFYkx4stpCRDUYy6D1Q9HnNU/PRL/h4muSEaGH3BmbBNFUMlVCNcjl7bariS/sJocs9qpFNquP5BKUf16W7c6+JNwoHbN3GCNgb2D14xTn4dloarZnt4t+pwiDx6zVfmShQPURtzhpT+YwnvzyDH8HeZ6sKHDeOrx04XDAdm0HBC3gFq5hdLbCQ/EQzGf3kB0AM1ebN9DpkJC13c86qKFdW95JDNe8Z9eCNHCObkWz+imiG8aEBNX9I+/DnBWcA6W75CaaAADKPEreLsGWWaSMLynCTuF2BC71QjDBlPNKa/MmlIE8rMaYaA7SsEAA78dIyF6lGiuU5MKMaplZsx10qphzZkVaJU1MA2BBulXPNyJDgSFrL+mpIXZ5tBSoSCD82gVQbw99swH3/IDPrGRJpDjU8ZxMx2oOZNEfiC4WyKL0f0YITS6zrCUsN1pEH44CF/B2DGel2MhuE04siCzpMwZR1yxFEQgut+E5vdVTB2oIyTUhXQyuJ716TtA09WtDdwaf8Lt6CS6/qNxoo/vlqWjzRrxG96SPSs",
+              "encryption": "cgck"
+            },
+            "72ed680122b37c7d0d632d9ee7b88073": {
+              ".": {
+                "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+              },
+              "/": "./blob",
+              "data": "odZ8cY57lWMVVhy6kI/iiJBeWRd0YeSi6Dp0SAAAABAEDfMtbX4QFqZuOVfGNgSFWLu6T3lvq4nocVzYTAw7eyqIWm198EjkVAC2vqm//51VBLvzQFBbURWHZwvWW4Y9rduYUdMGvw5SwLOHABUUpel9exn3cwH33t15E3Y5EASVAiDe6k6urqxs+FXDyoRa1thcYBsot44kcjHMn4RUuX+kj0ZbAtQRc4GwlQkprAxTCv7IQ6TyYgsGmCmsGShQbQhUAh/t2J1nFyz+5R7sW6az2gC+m5YxM17UfzQJyzopFdF6fIEybDBCghOkIb4dOihY0I1f/zoKiUmTNCiVs/bFVtHf8NDuCcLQv0L52BOYBIm89e6ri2QGF1h9+abQhEO2rFhKKJeflcQZhE+C0r6EeE11bbcNFR8TktzDnqZ7Ad/0yM34HBdaMK/64RJUQisV9cdkaI5aZyzZsXwRhML2FmfUoY5xs6ikMQ54KwfvCPSCAnS0xufqFR9X5OYJNIkOMY7MaQw9bWJGWVoEmDSN56w20G/cGgBkAHe83GbJCBcvENSy/M3XVfzA/4YDglvNZlSWJl0EmdQ/Zzg8Q4+L1F24sBXmIG8u8E7XYARkEdeNpzlj3hCqzQQIyzFRueS+Joqj2xgyZogzmvrrheoxkWxgB3852oZM74PbJuLOEjJK1tnG7Hdt5VMhA8hArfpuPPvKjhuPAUZ2/b+uSqCk0i6Hkr/BgRF1lOcJ5AGRBLrj0WKcjdCbWWXkUtYfN8zYPYD7+7oa+E7HUiALChXBwM7htRKBAMJhw1VcMRo7CdK48Ibhlg++x3iFAi4abskuiyW/9Rxjp7h+3/f9Jsb4dwOOqwhuspUSKsKCP8scAgzg3MTklxAyjPfOlLjq899lUiq7pgtpmgxHrd1t8RcMgQ7qOKiOPa1C6AQ2LtzX",
+              "encryption": "cgck"
+            },
+            "76fd8bc1e7e769fe71df4b8c5315e2fb": {
+              ".": {
+                "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+              },
+              "/": "./blob",
+              "data": "RzolmjNHOxdn4G+nNw1MvKoXJ/V1V99msu05eAAAABAEGWLj5+K5JtwYBSoAMcfG3npZ5HrS+WUrV7LwdlIPnzRs3oqqqm1RBGkvaCDu9X2CBtIBLAesRRm/6mvNsaqw4JQpXbY3FKSGbrEgsVTELfWpKHlmCZJFnJMdhGsUfJ8TFIPJVecNg7zriUYjXu3QEmDzOmgIIDhxf10yOZk3fwf/CzGX/h5dXV7rI55ewdgvFKOs4YV5k5K5V10c5ygW2W4FiUC+lY2KrmGkHh3A5UgZdt5SPgNOeEdTgTPapAwNAf87z8P9c/iZh1aoq3umdige1et1+duFz1OIiPqdkdAxNk/kPpWJBLR+BJYtQjJSFdcEhNNKjisJd2lEReN5NW91Q99UNr9BUQ0XJp9wQcKlZH0eHU8vSe/47x53yv5HBdfK12WuxYxVsmvIgjdisvfW1DRcATjJ84UAciG8hc7XIq2RVLhRFcj8ORsDgF0/A/dQMidwz+FXHNIdSnrzrZUPVZ38KstR/nABI2vEdwd8/UKzK8lv7fuw+qH3jXlTAUB1nQui+wehs66fj7QT+dCTAC0pnPay6uucto4xlBJmXkERFMl7/b/vtVqDVkHQFIQgq+igAMI4xKLaESaCSyaLOjCx44IoOOZYtjAUiyqbx4/e25L8MNsK/N/Ki5XiBpauk3mP3U3j51752LyWSqUJ/BDCVes90PAvmmjtP+vVXssSaKJg9Wv5fXxNivFQGJkq1RK6dP1xpbxdLwljqH6oTBNvVTqDTCrPsTf45nXZpZHWkzsZ9tfd7HjJQQhoBSDG+mpT2MTn3qheZ/K3YQK+2xqj7VD37kws8W8ZJW1P2uZwpkS15/FoTQxQxnEpEvvb2cY+1eLlbqJX3f2SwqnhC1NfJ36TXDrJ7S0xBQ6VniZxD4z13qcWy9bQVp3y",
+              "encryption": "cgck"
+            },
+            "bf3e7ecb34a9228304519dc8f5b8352c": {
+              ".": {
+                "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+              },
+              "/": "./blob",
+              "data": "SZXsF5IxLgiKRvOqYmv/wsS1WTQ2NpNDMVOJKgAAABAECiCRP4BJ0i3vH0T8hXOMFcvYLJIBudSF+uIt4sRiseShBWh3rs4yOrpg7+t7b6d5FjZ3yMvclE8Dm64OIPH0kF4eSDtsItrTJuRti0yXdoAx3Atl1MOc1U7cI7wdG6OIFmSrfhb6GX7E7vPiv39m3Cc46Seh5Jmn6VfX3Lz++P48HJysByNvh4wBk49gX5K4F+YBHiNdWJu0hwdGkTi5CFP0mITzqMr6rCFDK9FY37lXN7H9ONj1iYk9VAh6bL+CC6eHkSezL+noaCDldtjhNbMYlocs9D66MWc+jypsjgx9bkpKrwC83PkjCFJPJ0ADAct7zuVYSGlMkCidjDIeXeE7RDk39+xVxMjicTHVNlWbCmUbSH/bGjVZSJKI6o2aCX9rD5cYHbKCeLPCfuwSLmqvrgsCstcZjIZd+6GaMy0a28BnntdItBiHmzCQzC9JEFncOE/wxo7q7ApbBNpElnJLrzmm76d1Y5YrCVrQSDO3IHjOZ79Qqh6XEG+VbA2NE9uCD2mSGGJK6G4Z1q7hOMeXJCUFcVBsSMPdF2MS65J5/zQkCFUsTvdNHPxpBW0fAWLOvGXIG/fil2M2bL0x5ughfFhZfzs6iU0TY6+z1+VUKJKx8V+3NCnV89wziqEfDtXvCrOJ4B8zIIR+lx6Szvek6gxHEdzsVkJZatloy+dQ8JLLvI0JS5gkw34DST22Fd3UlM6/9ehBWvO8x1BT9mMyqNE41o3fuZCbU/98JWATFUv4mL3pyZYZAQLh6TS+GfjojJYLTjX2hgtn1RX4lhZbJQo87WooesiSxlU7FF+BQCWHTCWGFoelhyeJ5yFgCYdc5o0uDu0TkuBDKKEgJhU2av8egBfXzXZr/67SVKCXeZ8elHKBN8jn6DJ0uyAs",
+              "encryption": "cgck"
+            },
+            "cff4f8d974f11216d7b1874b7a21f9dd": {
+              ".": {
+                "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+              },
+              "/": "./blob",
+              "data": "0mBXOhBSqYusFv1lpj/gCCGsLSLaYDio4/GKUAAAABAEAFFl+NS947g/t4oECk0uKnCta7YUGDiEgVjtw9NQtNaLfE0NgBUoG6FGSOlVm2sSC5AT1rXHE694wcZRy1wq5lAp6l/jOSY43Z1/iCptXt2ryvCnTBWRFxfc6f6Pj28LFD1L4MeMRKZNne0k1ARVbPg66jgsm9EEoNzNZfMlq2FtVZ32BjqeMURzMNzys63CA600HKWN7/MVBYJ88cK2Bb6aL4hiXMpmfIKSw9TGsoFtGCiMYDDyGdPVzKX/MxHaCX0iu2njVa4hMUnQt2EWPXfcj/K7VWZE1OSLudpN4oN4+6+lrQSlVO+1o6LHPgG/GSEcEo5XhuadF/hpTPTH74jATqlwI3s/Eaym0YKxJJUAXcszqMyfnKOVd0gmFCntBrLDgXvIhsoQw8UNea1f42ZtkY9NhId3XyD5SCQDU9sUFrXxRKla9m7tekjG5PY+CiPCx2ODIxljvYTeMPRj3zYSqkAov2DUxB8yuyn1ey2/3TAf37OvRjKi7pp8tO9SFFBHezVVWSvtnKf5elpoxHTaBFKqTd588nqUEV+mpekUfNTsNrbJIn8KpklHo7WYDJoQqS3GxHUvri+B1jtH6oD76sDIuTqW/h5bqbWRsMmVTWGJKyfC4jWTamHzgwb5EuEvmTsKQ7VTzo81ydqe2ZOQyIpwEG87D2IEq+28hUVPjloGxZCGnRI1UzlRKsguDqoST6VxMWHOjKwm+4k9GPyN35fmYM6dcOo5+458aZIpZ9DTdoMYCtv7bC9BlJlDBboGOEm6wm1vTBC5Htw36oaQfCUAdxGVJCZGYbienqjklWNF70ou6ETIR9SIUV/3Eq4Uj66kY7vvmkKc++6BPEGfUkuAP4UHSowYli5fx7+YDQAwJKQ+AidSHFUaCq7E",
+              "encryption": "cgck"
+            },
+            "f8552266f5e83023ed21a7328b10146e": {
+              ".": {
+                "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+              },
+              "/": "./blob",
+              "data": "+btMqc1vWbNqXJqPuPGfHdquryWn40hX7z57oAAAABAED8+GtJ7vCIEzN38xlF2Q4tNIIwacU/6n2p7PZ4lU5u9dCXhZGX6/bLd7wNTMuZ4YFbM04lFkFnHZgCUrIB+NW5zlRlj4xv7ZJmXTQsMnHtP+/ZDWTGz7SRqkW8uxnMtsD8m8NwGFTyP7L/dxZipDPQbVailDPXMfjvY425s4L+6Bjid5xil5u9svu4KkA7vsFTqQp1GtegkPSduhcEdjgV87upz5Cr4R+0Cc1uzO0WzjfZ7/rk8zhxMSx38h1+FlFWuJTYJXmK7xL6O4yh652TD4j2oo/1+H6kOKUNhd0SBXXyC1hV7SqnJQ0bnpsWRYDM/s196zsWrFQVrG6NRlxjWCtGBJT0OAGnS7RwhQuWEETz9Qd3UDnnTzqpOUZQYaDWVQGp4Hf9sIjXhJZl+vwrEmvIkWV7xdSy+hdPVxU4J8rEuoX9Qua8+gDxyTqPB0FcBWmCZiPG8S8vDi7IJhiTAq+8l8DHXXKDTlbjGx/MapSj6O7jhjsWlG3ZVmUfJ/FBlo7ESvCa2mBox8mQ9B8M3IBoiNw0Fc9BTwiMeRI1/7TNQITzX6a6RJbQFq6JELEdr7g0CiYhRfM35oKZxUF2cv2Cd45g+NmqY1hlRsWwOhatLCQ9Rrz8SLR3QWshOpDE/kQ7nuENr9JuUKMGWWf4hkoAD9qhnpnYb+pOYyxVAFwrSF9mMqdE+4RTST9KrtBpLIa2M8oeJdIX0Hh6TfO56ZdINSQ7T6aDF8AEjUQZRp7Ycuc5I3qc3oJv5uKcwpF5XAZTfFVtNk+prkhOxd4SYNmjCMFqfLKIjkrs7J1GVX4b6Fu6PA71MGKCBxc/yuAvsepb1wxR40XifJDokfS4ujCwWAepu2BJ4bdCV9Pt1WNXsZAt3HtMHDw0b+raPt",
+              "encryption": "cgck"
+            }
+          },
+          "max_failover_urls": -1,
+          "playout_formats": {
+            "dash-clear": {
+              "drm": null,
+              "protocol": { "min_buffer_length": 2, "type": "ProtoDash" }
+            },
+            "dash-widevine": {
+              "drm": {
+                "content_id": "iq__FKn6heeJkuv7xApmugiE7NLAm7W",
+                "enc_scheme_name": "cenc",
+                "license_servers": [],
+                "type": "DrmWidevine"
+              },
+              "protocol": { "min_buffer_length": 2, "type": "ProtoDash" }
+            },
+            "hls-aes128": {
+              "drm": { "enc_scheme_name": "aes-128", "type": "DrmAes128" },
+              "protocol": { "type": "ProtoHls" }
+            },
+            "hls-clear": { "drm": null, "protocol": { "type": "ProtoHls" } },
+            "hls-fairplay": {
+              "drm": {
+                "enc_scheme_name": "cbcs",
+                "license_servers": [],
+                "type": "DrmFairplay"
+              },
+              "protocol": { "type": "ProtoHls" }
+            },
+            "hls-sample-aes": {
+              "drm": { "enc_scheme_name": "cbcs", "type": "DrmSampleAes" },
+              "protocol": { "type": "ProtoHls" }
+            }
+          },
+          "streams": {
+            "audio": {
+              "encryption_schemes": {
+                "aes-128": {
+                  "iv": "d2ce357441db1602018aadd2108ae267",
+                  "key_id": "f8552266f5e83023ed21a7328b10146e",
+                  "type": "EncSchemeAes128"
+                },
+                "cbcs": {
+                  "iv": "4389525f2e7091817b806345fa1d678d",
+                  "key_id": "76fd8bc1e7e769fe71df4b8c5315e2fb",
+                  "type": "EncSchemeCbcs"
+                },
+                "cenc": {
+                  "iv": "b39c5b80f8e784de230cc04db8842972",
+                  "key_id": "cff4f8d974f11216d7b1874b7a21f9dd",
+                  "type": "EncSchemeCenc"
+                }
+              },
+              "representations": {
+                "audioaudio@128000": {
+                  "bit_rate": 128000,
+                  "media_struct_stream_key": "audio",
+                  "type": "RepAudio"
+                }
+              }
+            },
+            "video": {
+              "encryption_schemes": {
+                "aes-128": {
+                  "iv": "07b508a415d7d4d556d14fdab254cc40",
+                  "key_id": "3ab809e9f478795205438d609ee295de",
+                  "type": "EncSchemeAes128"
+                },
+                "cbcs": {
+                  "iv": "a44ef0af6eb5071ca0a068e6d1cc4053",
+                  "key_id": "72ed680122b37c7d0d632d9ee7b88073",
+                  "type": "EncSchemeCbcs"
+                },
+                "cenc": {
+                  "iv": "6ee7ddc5fa69ef12d413ff876732e2e0",
+                  "key_id": "bf3e7ecb34a9228304519dc8f5b8352c",
+                  "type": "EncSchemeCenc"
+                }
+              },
+              "representations": {
+                "videovideo_1280x720@4500000": {
+                  "bit_rate": 4500000,
+                  "crf": 0,
+                  "height": 720,
+                  "media_struct_stream_key": "video",
+                  "type": "RepVideo",
+                  "width": 1280
+                },
+                "videovideo_1920x1080@9500000": {
+                  "bit_rate": 9500000,
+                  "crf": 0,
+                  "height": 1080,
+                  "media_struct_stream_key": "video",
+                  "type": "RepVideo",
+                  "width": 1920
+                },
+                "videovideo_640x360@520000": {
+                  "bit_rate": 520000,
+                  "crf": 0,
+                  "height": 360,
+                  "media_struct_stream_key": "video",
+                  "type": "RepVideo",
+                  "width": 640
+                },
+                "videovideo_640x360@810000": {
+                  "bit_rate": 810000,
+                  "crf": 0,
+                  "height": 360,
+                  "media_struct_stream_key": "video",
+                  "type": "RepVideo",
+                  "width": 640
+                },
+                "videovideo_768x432@1100000": {
+                  "bit_rate": 1100000,
+                  "crf": 0,
+                  "height": 432,
+                  "media_struct_stream_key": "video",
+                  "type": "RepVideo",
+                  "width": 768
+                },
+                "videovideo_960x540@2000000": {
+                  "bit_rate": 2000000,
+                  "crf": 0,
+                  "height": 540,
+                  "media_struct_stream_key": "video",
+                  "type": "RepVideo",
+                  "width": 960
+                }
+              }
+            }
+          }
+        },
+        "prod_master_hash": "hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL",
+        "prod_master_var_key": "default",
+        "ready": true,
+        "simple_watermark": null,
+        "store_clear": false
+      }
+    }
+  },
+  "assets": {},
+  "commit": {
+    "author": "eluvio-test-elv-admin",
+    "author_address": "0xc05e0274158442b7d595e5ac6d483d18df8fc93e",
+    "message": "fix ip and titlw",
+    "timestamp": "2022-03-30T18:00:12.835Z"
+  },
+  "description": "",
+  "eluv.caps.ikms2CtpuikdJCHgsdA3aYqMvtwt5K8j": "BGK4m2EtLvT+iSgAd00aEFB+ul9fTSKWwSz/8gJyuRS1U8Is0r0Js+9vYS8oIUNuKFqRGdWceO2QnMjBmZpv6WmopD8dPDuYGIO5iy0Z2KxPR+Wdoeo02mXV3D+dWFGd+8cdM8lgbHWHxrurABKk8zYbYy43LSznQzIhOPVgHDij/6g6boA26ozEQwybbIc3gWmnYu/J06ZP8IAYAKh904lAxi2L0hmnWo7KnCYmgAdo0ryN+H+5/KP0F/BfDUdW7LEs1kCp96Y2Pc2FyY47UTuyA659hBObmVo78TE0gXjzVzLStpb7qf4bVlpeEYhY5SS8h8rC7bCOCVOsWhaO+U49jRTJNtcfUBp5P3arbMnu5RqYvyaxPExQEIV1V1xy+VdwLdFVC4046QVxYrznCHlgA/ebNnJmVRWRHOiMw65i9VNS2a3vVsLKzB7vS6/yeADqj10Tv0sb/DoJAuOfPXpDjdx7Ysa7NXcjm3PYTbBzpx9J7eKrwAmE3D7NQwlARVm1qrDCuPttkbp6/xdFx9r28F7NFh8xEli4C5sECIXg+zUP4q5HmC9//Xy4ZGtdaxv5SYxtRE5qCjQPi0iChms=",
+  "eluv.caps.iusr3gSWvMqK8WoPnwZAnVxFmapayNyj": "BO3f/xKpehtxUWVWeAeT6gdtiCUkPFG0XSLoXf9l4z8Jamx1Tx8FjD0LZG7B2bkPm/pCjogg4pNXQ7LsnMTa8UlVW39/EEQS0CyG6MXc1fdJfjBx7LG7DwkpgydD8/SSuizavV8VERSx/uhkpEwIkg85BchvkSzS+1QOIoUllRB8r3qLY77NobUi7j1Z2VoE6hzLv6gM3/GNE2QBrujqv81MA7N6TXcLYuBcdSCHMy/tXkSDJ9ovxi04YOxF5DIq5MROiZjb4nyWbMxdaBKuf6hUkwrEMgheDFK/sammYXYrbeeDUqZz05A0ixFAlc9wN355KKHAOPYbjTNDb6mOdOxgPlfJSAEkEIKNN7dcwDGSsZjBtEQ05LrjOwdV2ea6pRQQD9EVbZ/OXcQEHNJQqeIznyqiwW255ZMqLnH4eWYHrtjl5r2qieud6AFhctWZbx+Cipg71OR5Zc7FF/MPcZQtyt4t9E7aMo2wNl/3/VNKrhhTi3zJ95Y+qgBcmus8xZqjB1NgKHfcpIN/nq1i1QkybvwocxB23SFFxuhkgdVi/BWV6oMlNFtT7bYHHxr916CMlkc+GL3nVt4rdtffZW0=",
+  "elv": {
+    "crypt": {
+      "drm": {
+        "fps": {
+          "cert": "MIIExzCCA6+gAwIBAgIIHyfkXhxLHC4wDQYJKoZIhvcNAQEFBQAwfzELMAkGA1UEBhMCVVMxEzARBgNVBAoMCkFwcGxlIEluYy4xJjAkBgNVBAsMHUFwcGxlIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MTMwMQYDVQQDDCpBcHBsZSBLZXkgU2VydmljZXMgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkwHhcNMjAwOTEyMDMzMjI0WhcNMjIwOTEzMDMzMjI0WjBgMQswCQYDVQQGEwJVUzETMBEGA1UECgwKRWx1dmlvIEluYzETMBEGA1UECwwKMktIOEtDM01NWDEnMCUGA1UEAwweRmFpclBsYXkgU3RyZWFtaW5nOiBFbHV2aW8gSW5jMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDslbBURB6gj07g7VrS7Ojixe7FNZOupomcZt+mtMvyavjg7X7/T4RccmKUQxOoMLKCJcQ6WrdHhIpN8+bciq7lr0mNzaN467zREiUNYOpkVPi13sJLieY2m2MEPOQTbIl52Cu1YyH+4/g1dKPmeguSnzZRo36jsCGHlJBjHq0jkQIDAQABo4IB6DCCAeQwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRj5EdUy4VxWUYsg6zMRDFkZwMsvjCB4gYDVR0gBIHaMIHXMIHUBgkqhkiG92NkBQEwgcYwgcMGCCsGAQUFBwICMIG2DIGzUmVsaWFuY2Ugb24gdGhpcyBjZXJ0aWZpY2F0ZSBieSBhbnkgcGFydHkgYXNzdW1lcyBhY2NlcHRhbmNlIG9mIHRoZSB0aGVuIGFwcGxpY2FibGUgc3RhbmRhcmQgdGVybXMgYW5kIGNvbmRpdGlvbnMgb2YgdXNlLCBjZXJ0aWZpY2F0ZSBwb2xpY3kgYW5kIGNlcnRpZmljYXRpb24gcHJhY3RpY2Ugc3RhdGVtZW50cy4wNQYDVR0fBC4wLDAqoCigJoYkaHR0cDovL2NybC5hcHBsZS5jb20va2V5c2VydmljZXMuY3JsMB0GA1UdDgQWBBR4jerseBHEUDC7mU+NQuIzZqHRFDAOBgNVHQ8BAf8EBAMCBSAwOAYLKoZIhvdjZAYNAQMBAf8EJgFuNnNkbHQ2OXFuc3l6eXp5bWFzdmdudGthbWd2bGE1Y212YzdpMC4GCyqGSIb3Y2QGDQEEAQH/BBwBd252bHhlbGV1Y3Vpb2JyZW4yeHZlZmV6N2Y5MA0GCSqGSIb3DQEBBQUAA4IBAQBM17YYquw0soDPAadr1aIM6iC6BQ/kOGYu3y/6AlrwYgAQNFy8DjsQUoqlQWFuA0sigp57bTUymkXEBf9yhUmXXiPafGjbxzsPF5SPFLIciolWbxRCB153L1a/Vh2wg3rhf4IvAZuJpnml6SSg5SjD19bN+gD7zrtp3yWKBKuarLSjDvVIB1SoxEToBs3glAEqoBiA2eZjikBA0aBlbvjUF2gqOmZjZJ7dmG1Tos2Zd4SdGL6ltSpKUeSGSxyv41aqF83vNpymNJmey2t2kPPtC7mt0LM32Ift3AkAl8Za9JbV/pOnc95oAfPhVTOGOI+u2BuB2qaKWjqHwkfqCz4A"
+        },
+        "kids": {
+          "3ab809e9f478795205438d609ee295de": "BCjqHC3AXdH/lM818kcA06OrX0RZknlkrMVzMxbbpbtEgiD31Lq+0/gIgsGNO9LJHjXJEKGcAmNenodmjtRiuvs8iIci96/PmHx86d5wahHBXI0YPE2jpcR8yBNVJlHDwQLV3BROicy4zMwZIqSl0W4+NfgMsyU57Z+Vqi0Bw0Muixk97uQAE06cuBUDeuy95B+6JU1vQYDyLvjxJpAZPUYV9HouVPMaJugLQWpGIMtUuuRWVAuMXrNsyTs/A1hbyo3HXn07T5ZUtFt+wBmHqmuftM9z0vlXMu+YWi1AIUIE",
+          "72ed680122b37c7d0d632d9ee7b88073": "BHOIexltm9rcJO15aTS6slK4oJxBO8JvLT+dAAEwYAZQY+TuujujbMnwlSE1hu4OIMcfV0R4ONYhqLwoCV4mHAdJz/vMS1QQDM2DzcPbpV2ucjnHLnxkpNnbDpAfDVCVp62UYW322EA66qOLYYCii/LQADWZYV5Id0/E6PX87q8T8MKGxPRVNvN2Qk0K7yWnl7kBWnO3HjE9yT5CR+6AeBqbVo6L2qfg8q1GrA8LA6lxpWNaCW3pBub7T7EBmvqWWGpD8Du+TUk6SdOS4Xwqem8=",
+          "76fd8bc1e7e769fe71df4b8c5315e2fb": "BIOPlGTCu4a0TL4wHjfajGxUgeL44iX7hn7bSNjW95aWWgmcoSwMlivQSU0svstSa2qfSajSqm3mAW0Q2JSMnYbp8SH6gA+8xaE8LCuWkTLrzcxZpouA9YfahZCciWoRNehTMt/YsPeUzlTl9tBOtvLb6g2zVfsAKur9uarCIXONoue42KgcRR/ryayQJg0VGf23TBbVoDxjZkHag0qc/fJN5gDzjuNuM7t/EgLTDkEh8TmhXreenxC7ROFXCULnqkQThx23OusOzEGKwjLL7sQ=",
+          "bf3e7ecb34a9228304519dc8f5b8352c": "BAal+4cxaI1dQLXvS4drQWBCTzx4M+UPgHquql1TBnXni6vtm71c+eZ+Xk+Z4KUlnuLw8DtQljuKU2Gfd+AT2zYE5QEFDDvFM4Ei+msJHH4W3SdGmjw4KtiartkrrPZMc7a40AX+y+EaF3xo+RDataO8F6Qp7yD1uNn0omnglimhQ5XfWJ3jJa61/dCWYsnMgiIIJyKezU0Ku9nfsZRX2YJTsW38dEOLTlHqX+Leb6iGbh1c2yEN915+imoJotO9HZzqlHQu2BZXMCYETuuqqrY=",
+          "cff4f8d974f11216d7b1874b7a21f9dd": "BJRDvd1Irifu1zjSOmmu7hiSOdric+a2/fT998+ziXBrr09Joy89/u1FnLARJKQYSAo/4loSkUJ/51e7TH6tCbMRLFsHL0HLSUSszudaj0zZg4HzU1hC1lzr+ZhgvbwYygcin/jbTi+JI/NrO2NHSnSrKd2+DM8ANMvjbBK1lRL7Mo1ykH3LTJ3m3oQEiuxH/m+Kzh7fZ1oSvMkTPEeuWZQ2N7+/FLK+vXUf2A6Na/fydaue8c3IgAam3wUiKuRHtmPGthKxk1NFDXqexrPeWpI=",
+          "f8552266f5e83023ed21a7328b10146e": "BAegWVvg6Z7jm/6Fdp2GAj80OlNkXEMfj0QcIVxhZH1SHKHLFgLl7BHndnA1dttnvAKPGN5SMiYioE+hiEwTFWqQxO9J9UNw5lJLFratOvhCqOwm7x9uCeqcw/FZMVdBv7fh4fgcu7ofH1ceh5x1tfgOSKiV61/K/8Cx+QoItcHiAOVeTDdLAhF17x+1lTOYAdPb2YuuRvTKgN7esdb26YcXQqXaVNQz8yVI8/ymSzd6mOsQr5t2cWUHyweWYac4sEzINAx0XnmPuo74gXcMiM1q00ZCKT2QcCTHdWNyGSl5"
+        }
+      }
+    }
+  },
+  "elv_created_at": 1648232736247,
+  "lro_status": {
+    "tlro1EjgMCv7K4M4FWswK19URM4zZVTGTBbmrLMFCzr4Rc33xwEer9Hh2E": {
+      "duration": 5636000000,
+      "duration_ms": 5636,
+      "end": "2022-03-25T18:26:07Z",
+      "progress": { "percentage": 100 },
+      "run_state": "finished",
+      "start": "2022-03-25T18:26:01Z"
+    },
+    "tlro1EjgMCv7K4M4FWswK19URM4zZVTGTBbnKLGhmXrUmSQejWf4UP2Wz6": {
+      "duration": 39220000000,
+      "duration_ms": 39220,
+      "end": "2022-03-25T18:26:40Z",
+      "progress": { "percentage": 100 },
+      "run_state": "finished",
+      "start": "2022-03-25T18:26:01Z"
+    }
+  },
+  "master": {
+    "hash": "hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL",
+    "id": "iq__VfSsFY4DTJ8jgZiuUJZVLtzM6xQ",
+    "name": "02_gran_dillama MASTER",
+    "variant": "default"
+  },
+  "name": "02_gran_dillama",
+  "offerings": {
+    "default": {
+      "drm_optional": true,
+      "entry_point_rat": null,
+      "exit_point_rat": null,
+      "image_watermark": null,
+      "json_patch": "",
+      "log": {
+        "Level": 3,
+        "entries": [
+          { "l": 4, "m": "apiAbrMezzanineInit()", "t": 1648232737202667800 },
+          {
+            "l": 3,
+            "m": "Using abr.Profile override in http request",
+            "t": 1648232737207307300
+          },
+          { "l": 3, "m": "Get production.Master", "t": 1648232737279233000 },
+          {
+            "l": 4,
+            "m": "getProductionVariantCtx(hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL,default)",
+            "t": 1648232737279243800
+          },
+          {
+            "l": 4,
+            "m": "getting production.Master: hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL",
+            "t": 1648232737279244800
+          },
+          {
+            "l": 4,
+            "m": "Get production.Variant 'default' from production.Master",
+            "t": 1648232737284250000
+          },
+          { "l": 3, "m": "Generate abr.Offering", "t": 1648232737284267800 }
+        ]
+      },
+      "max_play_seconds": 0,
+      "media_struct": {
+        "duration_rat": "18256/125",
+        "label": "",
+        "start_time_rat": "0",
+        "streams": {
+          "audio": {
+            "bit_rate": 127229,
+            "channel_layout": "stereo",
+            "channels": 2,
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "default_for_media_type": false,
+            "duration": {
+              "float": 146.048,
+              "float_exact": false,
+              "rat": "18256/125",
+              "time_base": "1/48000",
+              "ts": 7010304
+            },
+            "label": "",
+            "language": "",
+            "optimum_seg_dur": {
+              "float": 2.005333333333333,
+              "float_exact": false,
+              "rat": "752/375",
+              "time_base": "1/48000",
+              "ts": 96256
+            },
+            "rate": "48000",
+            "sources": [
+              {
+                "duration": {
+                  "float": 30.08,
+                  "float_exact": false,
+                  "rat": "752/25",
+                  "time_base": "1/48000",
+                  "ts": 1443840
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/48000",
+                  "ts": 0
+                },
+                "source": "hqpeDaGCiRPGmq6S9fpEKwW1gxhqKr7MKKqj5y1Jwxq3ZywUR6wA",
+                "timeline_end": {
+                  "float": 30.08,
+                  "float_exact": false,
+                  "rat": "752/25",
+                  "time_base": "1/48000",
+                  "ts": 1443840
+                },
+                "timeline_start": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/48000",
+                  "ts": 0
+                }
+              },
+              {
+                "duration": {
+                  "float": 30.08,
+                  "float_exact": false,
+                  "rat": "752/25",
+                  "time_base": "1/48000",
+                  "ts": 1443840
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/48000",
+                  "ts": 0
+                },
+                "source": "hqpe8TAVsMARpvAKXM2gN7qoURF2e2CBykyaFNVxwkh68ExbqjGV",
+                "timeline_end": {
+                  "float": 60.16,
+                  "float_exact": false,
+                  "rat": "1504/25",
+                  "time_base": "1/48000",
+                  "ts": 2887680
+                },
+                "timeline_start": {
+                  "float": 30.08,
+                  "float_exact": false,
+                  "rat": "752/25",
+                  "time_base": "1/48000",
+                  "ts": 1443840
+                }
+              },
+              {
+                "duration": {
+                  "float": 30.08,
+                  "float_exact": false,
+                  "rat": "752/25",
+                  "time_base": "1/48000",
+                  "ts": 1443840
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/48000",
+                  "ts": 0
+                },
+                "source": "hqpe6UDBpwBjnvccUjBbFHCEUdC238n8PF8ucfRtM7eUzAYDuhxM",
+                "timeline_end": {
+                  "float": 90.24,
+                  "float_exact": false,
+                  "rat": "2256/25",
+                  "time_base": "1/48000",
+                  "ts": 4331520
+                },
+                "timeline_start": {
+                  "float": 60.16,
+                  "float_exact": false,
+                  "rat": "1504/25",
+                  "time_base": "1/48000",
+                  "ts": 2887680
+                }
+              },
+              {
+                "duration": {
+                  "float": 30.08,
+                  "float_exact": false,
+                  "rat": "752/25",
+                  "time_base": "1/48000",
+                  "ts": 1443840
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/48000",
+                  "ts": 0
+                },
+                "source": "hqpeKm5XrUtWZ3Cerxj5t9rTKzzaTAWuYnjy4DEFbxFFBaqVGGjs",
+                "timeline_end": {
+                  "float": 120.32,
+                  "float_exact": false,
+                  "rat": "3008/25",
+                  "time_base": "1/48000",
+                  "ts": 5775360
+                },
+                "timeline_start": {
+                  "float": 90.24,
+                  "float_exact": false,
+                  "rat": "2256/25",
+                  "time_base": "1/48000",
+                  "ts": 4331520
+                }
+              },
+              {
+                "duration": {
+                  "float": 25.728,
+                  "float_exact": false,
+                  "rat": "3216/125",
+                  "time_base": "1/48000",
+                  "ts": 1234944
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/48000",
+                  "ts": 0
+                },
+                "source": "hqpeQrWpTxugMVCanW4mPNgQc7634uPGeyqRiuyqgja61vxsrLcZ",
+                "timeline_end": {
+                  "float": 146.048,
+                  "float_exact": false,
+                  "rat": "18256/125",
+                  "time_base": "1/48000",
+                  "ts": 7010304
+                },
+                "timeline_start": {
+                  "float": 120.32,
+                  "float_exact": false,
+                  "rat": "3008/25",
+                  "time_base": "1/48000",
+                  "ts": 5775360
+                }
+              }
+            ],
+            "start_time": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/48000",
+              "ts": 0
+            },
+            "time_base": "1/48000"
+          },
+          "video": {
+            "aspect_ratio": "16/9",
+            "bit_rate": 8724142,
+            "codec_name": "h264",
+            "codec_type": "video",
+            "default_for_media_type": false,
+            "duration": {
+              "float": 146,
+              "float_exact": true,
+              "rat": "146",
+              "time_base": "1/24000",
+              "ts": 3504000
+            },
+            "hdr": null,
+            "height": 1080,
+            "label": "",
+            "language": "",
+            "nb_frames": 1,
+            "optimum_seg_dur": {
+              "float": 2,
+              "float_exact": true,
+              "rat": "2",
+              "time_base": "1/24000",
+              "ts": 48000
+            },
+            "rate": "24",
+            "sources": [
+              {
+                "duration": {
+                  "float": 30,
+                  "float_exact": true,
+                  "rat": "30",
+                  "time_base": "1/24000",
+                  "ts": 720000
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/24000",
+                  "ts": 0
+                },
+                "source": "hqpe2p7GTT9VpwPpm2M2nbGjj6tsw7NruWZDgR3SEd9fditW4MRedL",
+                "timeline_end": {
+                  "float": 30,
+                  "float_exact": true,
+                  "rat": "30",
+                  "time_base": "1/24000",
+                  "ts": 720000
+                },
+                "timeline_start": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/24000",
+                  "ts": 0
+                }
+              },
+              {
+                "duration": {
+                  "float": 30,
+                  "float_exact": true,
+                  "rat": "30",
+                  "time_base": "1/24000",
+                  "ts": 720000
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/24000",
+                  "ts": 0
+                },
+                "source": "hqpehQEVDiDyLkVKUZnFxnSB6raq96YaU4tdqt8od9SoUuEacAX75",
+                "timeline_end": {
+                  "float": 60,
+                  "float_exact": true,
+                  "rat": "60",
+                  "time_base": "1/24000",
+                  "ts": 1440000
+                },
+                "timeline_start": {
+                  "float": 30,
+                  "float_exact": true,
+                  "rat": "30",
+                  "time_base": "1/24000",
+                  "ts": 720000
+                }
+              },
+              {
+                "duration": {
+                  "float": 30,
+                  "float_exact": true,
+                  "rat": "30",
+                  "time_base": "1/24000",
+                  "ts": 720000
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/24000",
+                  "ts": 0
+                },
+                "source": "hqpe9mFdC6CvcQUBCAVM9M3KKNiNcVrdhFYm2n82wR5rws5spR2EB",
+                "timeline_end": {
+                  "float": 90,
+                  "float_exact": true,
+                  "rat": "90",
+                  "time_base": "1/24000",
+                  "ts": 2160000
+                },
+                "timeline_start": {
+                  "float": 60,
+                  "float_exact": true,
+                  "rat": "60",
+                  "time_base": "1/24000",
+                  "ts": 1440000
+                }
+              },
+              {
+                "duration": {
+                  "float": 30,
+                  "float_exact": true,
+                  "rat": "30",
+                  "time_base": "1/24000",
+                  "ts": 720000
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/24000",
+                  "ts": 0
+                },
+                "source": "hqpe2oFkZGLH38s7yKBmew1uNyjdyZcuqS41uVPmbGMCCRXJGh4D8r",
+                "timeline_end": {
+                  "float": 120,
+                  "float_exact": true,
+                  "rat": "120",
+                  "time_base": "1/24000",
+                  "ts": 2880000
+                },
+                "timeline_start": {
+                  "float": 90,
+                  "float_exact": true,
+                  "rat": "90",
+                  "time_base": "1/24000",
+                  "ts": 2160000
+                }
+              },
+              {
+                "duration": {
+                  "float": 26,
+                  "float_exact": true,
+                  "rat": "26",
+                  "time_base": "1/24000",
+                  "ts": 624000
+                },
+                "entry_point": {
+                  "float": 0,
+                  "float_exact": true,
+                  "rat": "0",
+                  "time_base": "1/24000",
+                  "ts": 0
+                },
+                "source": "hqpea1ZCUPhtoR2ZDWp6gDjVqi2Y1TAz4k8EhQmrN3dquMdVmf4Bh",
+                "timeline_end": {
+                  "float": 146,
+                  "float_exact": true,
+                  "rat": "146",
+                  "time_base": "1/24000",
+                  "ts": 3504000
+                },
+                "timeline_start": {
+                  "float": 120,
+                  "float_exact": true,
+                  "rat": "120",
+                  "time_base": "1/24000",
+                  "ts": 2880000
+                }
+              }
+            ],
+            "start_time": {
+              "float": 0,
+              "float_exact": true,
+              "rat": "0",
+              "time_base": "1/24000",
+              "ts": 0
+            },
+            "time_base": "1/24000",
+            "width": 1920
+          }
+        }
+      },
+      "mez_prep_specs": null,
+      "offer_as_live": false,
+      "offer_live_seg_count": 0,
+      "play_mode": null,
+      "playout": {
+        "drm_keys": {
+          "3ab809e9f478795205438d609ee295de": {
+            ".": {
+              "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+            },
+            "/": "./blob",
+            "data": "t3GMw83nGoL6Pw1x5RoP3Fb+0f6qdUztTb3ylwAAABAECLH8Zh1ZYQaLoEUpRo7KOJ9o+GIzHnUDaTS/a+2HbpdlvLnEHwO+rc00ELMldrTvAycx6X89ZQz69MJUePgOZiazY11HpzCf9Kdztn0Dp1a3Om4BLVOPGjjP+CrWDquMGf3MghPiKTCAy7jkTIXGmaQA+6s1vO67dtijuceQQtBDJ84GK9glvtAl0NEFqfhxFlOc3C9VnHATyl1JS8LdWQC7MTCQi+8WTU+bJk3MM/VDFF+nZMGvsG17RhP366h/AGOu8s/fzXxZnklWivcxf9wpsRkL87zoXKD67747LVDlFZ7Kuai47a0zVtM7SKxxCHae8eWBDms+bttEnQ3FjhGFjpAhBFYkx4stpCRDUYy6D1Q9HnNU/PRL/h4muSEaGH3BmbBNFUMlVCNcjl7bariS/sJocs9qpFNquP5BKUf16W7c6+JNwoHbN3GCNgb2D14xTn4dloarZnt4t+pwiDx6zVfmShQPURtzhpT+YwnvzyDH8HeZ6sKHDeOrx04XDAdm0HBC3gFq5hdLbCQ/EQzGf3kB0AM1ebN9DpkJC13c86qKFdW95JDNe8Z9eCNHCObkWz+imiG8aEBNX9I+/DnBWcA6W75CaaAADKPEreLsGWWaSMLynCTuF2BC71QjDBlPNKa/MmlIE8rMaYaA7SsEAA78dIyF6lGiuU5MKMaplZsx10qphzZkVaJU1MA2BBulXPNyJDgSFrL+mpIXZ5tBSoSCD82gVQbw99swH3/IDPrGRJpDjU8ZxMx2oOZNEfiC4WyKL0f0YITS6zrCUsN1pEH44CF/B2DGel2MhuE04siCzpMwZR1yxFEQgut+E5vdVTB2oIyTUhXQyuJ716TtA09WtDdwaf8Lt6CS6/qNxoo/vlqWjzRrxG96SPSs",
+            "encryption": "cgck"
+          },
+          "72ed680122b37c7d0d632d9ee7b88073": {
+            ".": {
+              "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+            },
+            "/": "./blob",
+            "data": "odZ8cY57lWMVVhy6kI/iiJBeWRd0YeSi6Dp0SAAAABAEDfMtbX4QFqZuOVfGNgSFWLu6T3lvq4nocVzYTAw7eyqIWm198EjkVAC2vqm//51VBLvzQFBbURWHZwvWW4Y9rduYUdMGvw5SwLOHABUUpel9exn3cwH33t15E3Y5EASVAiDe6k6urqxs+FXDyoRa1thcYBsot44kcjHMn4RUuX+kj0ZbAtQRc4GwlQkprAxTCv7IQ6TyYgsGmCmsGShQbQhUAh/t2J1nFyz+5R7sW6az2gC+m5YxM17UfzQJyzopFdF6fIEybDBCghOkIb4dOihY0I1f/zoKiUmTNCiVs/bFVtHf8NDuCcLQv0L52BOYBIm89e6ri2QGF1h9+abQhEO2rFhKKJeflcQZhE+C0r6EeE11bbcNFR8TktzDnqZ7Ad/0yM34HBdaMK/64RJUQisV9cdkaI5aZyzZsXwRhML2FmfUoY5xs6ikMQ54KwfvCPSCAnS0xufqFR9X5OYJNIkOMY7MaQw9bWJGWVoEmDSN56w20G/cGgBkAHe83GbJCBcvENSy/M3XVfzA/4YDglvNZlSWJl0EmdQ/Zzg8Q4+L1F24sBXmIG8u8E7XYARkEdeNpzlj3hCqzQQIyzFRueS+Joqj2xgyZogzmvrrheoxkWxgB3852oZM74PbJuLOEjJK1tnG7Hdt5VMhA8hArfpuPPvKjhuPAUZ2/b+uSqCk0i6Hkr/BgRF1lOcJ5AGRBLrj0WKcjdCbWWXkUtYfN8zYPYD7+7oa+E7HUiALChXBwM7htRKBAMJhw1VcMRo7CdK48Ibhlg++x3iFAi4abskuiyW/9Rxjp7h+3/f9Jsb4dwOOqwhuspUSKsKCP8scAgzg3MTklxAyjPfOlLjq899lUiq7pgtpmgxHrd1t8RcMgQ7qOKiOPa1C6AQ2LtzX",
+            "encryption": "cgck"
+          },
+          "76fd8bc1e7e769fe71df4b8c5315e2fb": {
+            ".": {
+              "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+            },
+            "/": "./blob",
+            "data": "RzolmjNHOxdn4G+nNw1MvKoXJ/V1V99msu05eAAAABAEGWLj5+K5JtwYBSoAMcfG3npZ5HrS+WUrV7LwdlIPnzRs3oqqqm1RBGkvaCDu9X2CBtIBLAesRRm/6mvNsaqw4JQpXbY3FKSGbrEgsVTELfWpKHlmCZJFnJMdhGsUfJ8TFIPJVecNg7zriUYjXu3QEmDzOmgIIDhxf10yOZk3fwf/CzGX/h5dXV7rI55ewdgvFKOs4YV5k5K5V10c5ygW2W4FiUC+lY2KrmGkHh3A5UgZdt5SPgNOeEdTgTPapAwNAf87z8P9c/iZh1aoq3umdige1et1+duFz1OIiPqdkdAxNk/kPpWJBLR+BJYtQjJSFdcEhNNKjisJd2lEReN5NW91Q99UNr9BUQ0XJp9wQcKlZH0eHU8vSe/47x53yv5HBdfK12WuxYxVsmvIgjdisvfW1DRcATjJ84UAciG8hc7XIq2RVLhRFcj8ORsDgF0/A/dQMidwz+FXHNIdSnrzrZUPVZ38KstR/nABI2vEdwd8/UKzK8lv7fuw+qH3jXlTAUB1nQui+wehs66fj7QT+dCTAC0pnPay6uucto4xlBJmXkERFMl7/b/vtVqDVkHQFIQgq+igAMI4xKLaESaCSyaLOjCx44IoOOZYtjAUiyqbx4/e25L8MNsK/N/Ki5XiBpauk3mP3U3j51752LyWSqUJ/BDCVes90PAvmmjtP+vVXssSaKJg9Wv5fXxNivFQGJkq1RK6dP1xpbxdLwljqH6oTBNvVTqDTCrPsTf45nXZpZHWkzsZ9tfd7HjJQQhoBSDG+mpT2MTn3qheZ/K3YQK+2xqj7VD37kws8W8ZJW1P2uZwpkS15/FoTQxQxnEpEvvb2cY+1eLlbqJX3f2SwqnhC1NfJ36TXDrJ7S0xBQ6VniZxD4z13qcWy9bQVp3y",
+            "encryption": "cgck"
+          },
+          "bf3e7ecb34a9228304519dc8f5b8352c": {
+            ".": {
+              "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+            },
+            "/": "./blob",
+            "data": "SZXsF5IxLgiKRvOqYmv/wsS1WTQ2NpNDMVOJKgAAABAECiCRP4BJ0i3vH0T8hXOMFcvYLJIBudSF+uIt4sRiseShBWh3rs4yOrpg7+t7b6d5FjZ3yMvclE8Dm64OIPH0kF4eSDtsItrTJuRti0yXdoAx3Atl1MOc1U7cI7wdG6OIFmSrfhb6GX7E7vPiv39m3Cc46Seh5Jmn6VfX3Lz++P48HJysByNvh4wBk49gX5K4F+YBHiNdWJu0hwdGkTi5CFP0mITzqMr6rCFDK9FY37lXN7H9ONj1iYk9VAh6bL+CC6eHkSezL+noaCDldtjhNbMYlocs9D66MWc+jypsjgx9bkpKrwC83PkjCFJPJ0ADAct7zuVYSGlMkCidjDIeXeE7RDk39+xVxMjicTHVNlWbCmUbSH/bGjVZSJKI6o2aCX9rD5cYHbKCeLPCfuwSLmqvrgsCstcZjIZd+6GaMy0a28BnntdItBiHmzCQzC9JEFncOE/wxo7q7ApbBNpElnJLrzmm76d1Y5YrCVrQSDO3IHjOZ79Qqh6XEG+VbA2NE9uCD2mSGGJK6G4Z1q7hOMeXJCUFcVBsSMPdF2MS65J5/zQkCFUsTvdNHPxpBW0fAWLOvGXIG/fil2M2bL0x5ughfFhZfzs6iU0TY6+z1+VUKJKx8V+3NCnV89wziqEfDtXvCrOJ4B8zIIR+lx6Szvek6gxHEdzsVkJZatloy+dQ8JLLvI0JS5gkw34DST22Fd3UlM6/9ehBWvO8x1BT9mMyqNE41o3fuZCbU/98JWATFUv4mL3pyZYZAQLh6TS+GfjojJYLTjX2hgtn1RX4lhZbJQo87WooesiSxlU7FF+BQCWHTCWGFoelhyeJ5yFgCYdc5o0uDu0TkuBDKKEgJhU2av8egBfXzXZr/67SVKCXeZ8elHKBN8jn6DJ0uyAs",
+            "encryption": "cgck"
+          },
+          "cff4f8d974f11216d7b1874b7a21f9dd": {
+            ".": {
+              "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+            },
+            "/": "./blob",
+            "data": "0mBXOhBSqYusFv1lpj/gCCGsLSLaYDio4/GKUAAAABAEAFFl+NS947g/t4oECk0uKnCta7YUGDiEgVjtw9NQtNaLfE0NgBUoG6FGSOlVm2sSC5AT1rXHE694wcZRy1wq5lAp6l/jOSY43Z1/iCptXt2ryvCnTBWRFxfc6f6Pj28LFD1L4MeMRKZNne0k1ARVbPg66jgsm9EEoNzNZfMlq2FtVZ32BjqeMURzMNzys63CA600HKWN7/MVBYJ88cK2Bb6aL4hiXMpmfIKSw9TGsoFtGCiMYDDyGdPVzKX/MxHaCX0iu2njVa4hMUnQt2EWPXfcj/K7VWZE1OSLudpN4oN4+6+lrQSlVO+1o6LHPgG/GSEcEo5XhuadF/hpTPTH74jATqlwI3s/Eaym0YKxJJUAXcszqMyfnKOVd0gmFCntBrLDgXvIhsoQw8UNea1f42ZtkY9NhId3XyD5SCQDU9sUFrXxRKla9m7tekjG5PY+CiPCx2ODIxljvYTeMPRj3zYSqkAov2DUxB8yuyn1ey2/3TAf37OvRjKi7pp8tO9SFFBHezVVWSvtnKf5elpoxHTaBFKqTd588nqUEV+mpekUfNTsNrbJIn8KpklHo7WYDJoQqS3GxHUvri+B1jtH6oD76sDIuTqW/h5bqbWRsMmVTWGJKyfC4jWTamHzgwb5EuEvmTsKQ7VTzo81ydqe2ZOQyIpwEG87D2IEq+28hUVPjloGxZCGnRI1UzlRKsguDqoST6VxMWHOjKwm+4k9GPyN35fmYM6dcOo5+458aZIpZ9DTdoMYCtv7bC9BlJlDBboGOEm6wm1vTBC5Htw36oaQfCUAdxGVJCZGYbienqjklWNF70ou6ETIR9SIUV/3Eq4Uj66kY7vvmkKc++6BPEGfUkuAP4UHSowYli5fx7+YDQAwJKQ+AidSHFUaCq7E",
+            "encryption": "cgck"
+          },
+          "f8552266f5e83023ed21a7328b10146e": {
+            ".": {
+              "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+            },
+            "/": "./blob",
+            "data": "+btMqc1vWbNqXJqPuPGfHdquryWn40hX7z57oAAAABAED8+GtJ7vCIEzN38xlF2Q4tNIIwacU/6n2p7PZ4lU5u9dCXhZGX6/bLd7wNTMuZ4YFbM04lFkFnHZgCUrIB+NW5zlRlj4xv7ZJmXTQsMnHtP+/ZDWTGz7SRqkW8uxnMtsD8m8NwGFTyP7L/dxZipDPQbVailDPXMfjvY425s4L+6Bjid5xil5u9svu4KkA7vsFTqQp1GtegkPSduhcEdjgV87upz5Cr4R+0Cc1uzO0WzjfZ7/rk8zhxMSx38h1+FlFWuJTYJXmK7xL6O4yh652TD4j2oo/1+H6kOKUNhd0SBXXyC1hV7SqnJQ0bnpsWRYDM/s196zsWrFQVrG6NRlxjWCtGBJT0OAGnS7RwhQuWEETz9Qd3UDnnTzqpOUZQYaDWVQGp4Hf9sIjXhJZl+vwrEmvIkWV7xdSy+hdPVxU4J8rEuoX9Qua8+gDxyTqPB0FcBWmCZiPG8S8vDi7IJhiTAq+8l8DHXXKDTlbjGx/MapSj6O7jhjsWlG3ZVmUfJ/FBlo7ESvCa2mBox8mQ9B8M3IBoiNw0Fc9BTwiMeRI1/7TNQITzX6a6RJbQFq6JELEdr7g0CiYhRfM35oKZxUF2cv2Cd45g+NmqY1hlRsWwOhatLCQ9Rrz8SLR3QWshOpDE/kQ7nuENr9JuUKMGWWf4hkoAD9qhnpnYb+pOYyxVAFwrSF9mMqdE+4RTST9KrtBpLIa2M8oeJdIX0Hh6TfO56ZdINSQ7T6aDF8AEjUQZRp7Ycuc5I3qc3oJv5uKcwpF5XAZTfFVtNk+prkhOxd4SYNmjCMFqfLKIjkrs7J1GVX4b6Fu6PA71MGKCBxc/yuAvsepb1wxR40XifJDokfS4ujCwWAepu2BJ4bdCV9Pt1WNXsZAt3HtMHDw0b+raPt",
+            "encryption": "cgck"
+          }
+        },
+        "max_failover_urls": -1,
+        "playout_formats": {
+          "dash-clear": {
+            "drm": null,
+            "protocol": { "min_buffer_length": 2, "type": "ProtoDash" }
+          },
+          "dash-widevine": {
+            "drm": {
+              "content_id": "iq__FKn6heeJkuv7xApmugiE7NLAm7W",
+              "enc_scheme_name": "cenc",
+              "license_servers": [],
+              "type": "DrmWidevine"
+            },
+            "protocol": { "min_buffer_length": 2, "type": "ProtoDash" }
+          },
+          "hls-aes128": {
+            "drm": { "enc_scheme_name": "aes-128", "type": "DrmAes128" },
+            "protocol": { "type": "ProtoHls" }
+          },
+          "hls-clear": { "drm": null, "protocol": { "type": "ProtoHls" } },
+          "hls-fairplay": {
+            "drm": {
+              "enc_scheme_name": "cbcs",
+              "license_servers": [],
+              "type": "DrmFairplay"
+            },
+            "protocol": { "type": "ProtoHls" }
+          },
+          "hls-sample-aes": {
+            "drm": { "enc_scheme_name": "cbcs", "type": "DrmSampleAes" },
+            "protocol": { "type": "ProtoHls" }
+          }
+        },
+        "streams": {
+          "audio": {
+            "encryption_schemes": {
+              "aes-128": {
+                "iv": "d2ce357441db1602018aadd2108ae267",
+                "key_id": "f8552266f5e83023ed21a7328b10146e",
+                "type": "EncSchemeAes128"
+              },
+              "cbcs": {
+                "iv": "4389525f2e7091817b806345fa1d678d",
+                "key_id": "76fd8bc1e7e769fe71df4b8c5315e2fb",
+                "type": "EncSchemeCbcs"
+              },
+              "cenc": {
+                "iv": "b39c5b80f8e784de230cc04db8842972",
+                "key_id": "cff4f8d974f11216d7b1874b7a21f9dd",
+                "type": "EncSchemeCenc"
+              }
+            },
+            "representations": {
+              "audioaudio@128000": {
+                "bit_rate": 128000,
+                "media_struct_stream_key": "audio",
+                "type": "RepAudio"
+              }
+            }
+          },
+          "video": {
+            "encryption_schemes": {
+              "aes-128": {
+                "iv": "07b508a415d7d4d556d14fdab254cc40",
+                "key_id": "3ab809e9f478795205438d609ee295de",
+                "type": "EncSchemeAes128"
+              },
+              "cbcs": {
+                "iv": "a44ef0af6eb5071ca0a068e6d1cc4053",
+                "key_id": "72ed680122b37c7d0d632d9ee7b88073",
+                "type": "EncSchemeCbcs"
+              },
+              "cenc": {
+                "iv": "6ee7ddc5fa69ef12d413ff876732e2e0",
+                "key_id": "bf3e7ecb34a9228304519dc8f5b8352c",
+                "type": "EncSchemeCenc"
+              }
+            },
+            "representations": {
+              "videovideo_1280x720@4500000": {
+                "bit_rate": 4500000,
+                "crf": 0,
+                "height": 720,
+                "media_struct_stream_key": "video",
+                "type": "RepVideo",
+                "width": 1280
+              },
+              "videovideo_1920x1080@9500000": {
+                "bit_rate": 9500000,
+                "crf": 0,
+                "height": 1080,
+                "media_struct_stream_key": "video",
+                "type": "RepVideo",
+                "width": 1920
+              },
+              "videovideo_640x360@520000": {
+                "bit_rate": 520000,
+                "crf": 0,
+                "height": 360,
+                "media_struct_stream_key": "video",
+                "type": "RepVideo",
+                "width": 640
+              },
+              "videovideo_640x360@810000": {
+                "bit_rate": 810000,
+                "crf": 0,
+                "height": 360,
+                "media_struct_stream_key": "video",
+                "type": "RepVideo",
+                "width": 640
+              },
+              "videovideo_768x432@1100000": {
+                "bit_rate": 1100000,
+                "crf": 0,
+                "height": 432,
+                "media_struct_stream_key": "video",
+                "type": "RepVideo",
+                "width": 768
+              },
+              "videovideo_960x540@2000000": {
+                "bit_rate": 2000000,
+                "crf": 0,
+                "height": 540,
+                "media_struct_stream_key": "video",
+                "type": "RepVideo",
+                "width": 960
+              }
+            }
+          }
+        }
+      },
+      "prod_master_hash": "hq__Kk8qnyxNXeAhnsDXEQ2RJXpt9VwFebTVcrAMZkcNowXY1bF8qmhQcXPPYi8kZAjeX64gL44kSL",
+      "prod_master_var_key": "default",
+      "ready": true,
+      "simple_watermark": null,
+      "store_clear": false
+    }
+  },
+  "playout_drm_keys": {
+    "3ab809e9f478795205438d609ee295de": "BDAdWiRNAFnkgS3w5g945qHctJBie7mqrorxAJgX+DROeoXZnNKuo1aF8S77mdiYj+sgFOVLjhhhFQ6FHvWS2v4meJUvKzW6rxvi5/Tca4b3WZRhqLwoMTaewjSRUUlBO0X711vOL0RqdtT7A+6yY/E=",
+    "72ed680122b37c7d0d632d9ee7b88073": "BI1WO+ArbeTtqpXcA77jbu2NyIKxiRP3D4qD89zbzynUI36XVNfuTtolgn7FJ884WgKTWs0Nksnwe9VhfRHNzcDOJm6WcbbXbi1A3pKutD3pgkmA+8VJvaqvpV0oBLonWtvUZ5ElH9fHmLiAElZ4Seg=",
+    "76fd8bc1e7e769fe71df4b8c5315e2fb": "BDvb6Oc5csRZJek7MbgNvISLaTKDyx/QObRtMAjNbHBcp9ONnYGV02XIENDfO91Mv88tD06XXw42kPPJNe5tbsFyd7TyHHdxK6CUey1lizi4w2QQ3Q79PA0f5K/JhMZmZ9UbZas5Orq240sgdf2hHyY=",
+    "bf3e7ecb34a9228304519dc8f5b8352c": "BFCYEWVZqSvSkacPId0lzPWAnCgQj9HCPlh/onJsC/nYsWtcOesUJj88tDDq/g67nARBJlsNce7ZE380W9q5j/qXxClw+NT6Trw8EEQ7nHtFjhMWXE7sCvd3lX+5UA0E9XjFlOt3baHaxHbymx3+mq0=",
+    "cff4f8d974f11216d7b1874b7a21f9dd": "BJ7P70gZE5WnCErimE6JIWKC7DQAoIasI6Oevi/p+rhgWEFhtyfK0A7iBJU8MIi3pd9o8l76emFtoqRJ1w140tqeR1VVYHyfJlzox1X5nM8xhB+fI1HBVc9ij+ANYCItXT7NAHQdn25oOJ74vqYgxbY=",
+    "f8552266f5e83023ed21a7328b10146e": "BPP+0ISMjbUcldkqpSOS2+M6rRnqoI3PDMrwY3lHjddejV+IzzWAQkfXxYdtsKiKp7NhAk6FhpGC2z0gk4LtW5QjcXQ+qhRLJHTL2HyFqbNQx4RfavwQMt+L53MUFMHD1kCIdkhZAthG6O1KJNxEYAY="
+  },
+  "public": {
+    "asset_metadata": {
+      "asset_type": "primary",
+      "display_title": "02_gran_dilemna",
+      "episodes": {},
+      "images": {},
+      "info": {
+        "copyright": "",
+        "creator": "",
+        "release_date": "",
+        "runtime": null,
+        "synopsis": "",
+        "talent": {}
+      },
+      "ip_title_id": "02-gran-dilemna",
+      "playlists": {},
+      "seasons": {},
+      "series": {},
+      "slug": "02-gran-dilemna",
+      "sources": {
+        "default": {
+          ".": {
+            "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+          },
+          "/": "./rep/playout/default/options.json"
+        }
+      },
+      "title": "02_gran_dilemna",
+      "title_type": "collection",
+      "titles": {}
+    },
+    "description": "",
+    "name": "02_gran_dillama"
+  },
+  "searchables": {
+    "asset_metadata": {
+      "asset_type": "primary",
+      "display_title": "02_gran_dilemna",
+      "episodes": {},
+      "images": {},
+      "info": {
+        "copyright": "",
+        "creator": "",
+        "release_date": "",
+        "runtime": null,
+        "synopsis": "",
+        "talent": {}
+      },
+      "ip_title_id": "02-gran-dilemna",
+      "playlists": {},
+      "seasons": {},
+      "series": {},
+      "slug": "02-gran-dilemna",
+      "sources": {
+        "default": {
+          ".": {
+            "container": "hq__DjhuuXq6H5T7X8SQa8NnYqxyPq52ZGAETmUs8mo1pSaKKAFAw3qxHnksFtVQvDDNhYCgURWHTN"
+          },
+          "/": "./rep/playout/default/options.json"
+        }
+      },
+      "title": "02_gran_dilemna",
+      "title_type": "collection",
+      "titles": {}
+    },
+    "assets": {}
+  },
+  "site_map": { "searchables": {} }
+}

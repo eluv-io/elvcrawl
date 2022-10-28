@@ -1,0 +1,421 @@
+pub const INDEX_CONFIG: &str = r#"{
+        "commit": {
+          "author": "eluvio-test-elv-admin",
+          "author_address": "0xc05e0274158442b7d595e5ac6d483d18df8fc93e",
+          "message": "Index Updated via O",
+          "timestamp": "2022-04-01T02:17:32.636Z"
+        },
+        "files": {
+          ".": { "type": "directory" },
+          "index": {
+            ".": { "type": "directory" },
+            "content": { ".": { "parts": [1], "size": 30720 } },
+            "metadata": { ".": { "parts": [0], "size": 30720 } }
+          }
+        },
+        "indexer": {
+          "config": {
+            "fabric": {
+              "policy": { "paths": ["/offerings/*"] },
+              "root": {
+                "content": "iq__VjLkBkswLMrai3CfCUJtUfhWmZy",
+                "library": "ilib4M649Yi6tCTWpXgxch4i9RJvv4BQ"
+              }
+            },
+            "indexer": {
+              "arguments": {
+                "document": { "prefix": "/" },
+                "fields": {
+                  "asset_type": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.asset_type"],
+                    "type": "string"
+                  },
+                  "based_on": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.info.based_on"],
+                    "type": "string"
+                  },
+                  "cast": {
+                    "options": {},
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.talent.cast.talent_first_name",
+                      "site_map.searchables.*.asset_metadata.info.talent.cast.talent_last_name"
+                    ],
+                    "type": "text"
+                  },
+                  "community": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.info.community"],
+                    "type": "string"
+                  },
+                  "display_title": {
+                    "options": {},
+                    "paths": ["site_map.searchables.*.asset_metadata.display_title"],
+                    "type": "text"
+                  },
+                  "franchise": {
+                    "options": {},
+                    "paths": ["site_map.searchables.*.asset_metadata.info.franchise"],
+                    "type": "text"
+                  },
+                  "genre": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.info.genre"],
+                    "type": "string"
+                  },
+                  "holiday": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.info.holiday"],
+                    "type": "string"
+                  },
+                  "ip_title_id": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.ip_title_id"],
+                    "type": "string"
+                  },
+                  "mpaa_rating": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.mpaa_rating"
+                    ],
+                    "type": "string"
+                  },
+                  "plot_theme": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.plot_theme"
+                    ],
+                    "type": "string"
+                  },
+                  "release_date": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.release_date"
+                    ],
+                    "type": "string"
+                  },
+                  "setting_city": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.setting_city"
+                    ],
+                    "type": "string"
+                  },
+                  "setting_country": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.setting_country"
+                    ],
+                    "type": "string"
+                  },
+                  "setting_region": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.setting_region"
+                    ],
+                    "type": "string"
+                  },
+                  "setting_us_state": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.setting_us_state"
+                    ],
+                    "type": "string"
+                  },
+                  "status": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.info.status"],
+                    "type": "string"
+                  },
+                  "synopsis": {
+                    "options": {},
+                    "paths": ["site_map.searchables.*.asset_metadata.info.synopsis"],
+                    "type": "text"
+                  },
+                  "time_period": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": [
+                      "site_map.searchables.*.asset_metadata.info.time_period"
+                    ],
+                    "type": "string"
+                  },
+                  "title": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.title"],
+                    "type": "string"
+                  },
+                  "title_type": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.title_type"],
+                    "type": "string"
+                  },
+                  "tv_rating": {
+                    "options": { "stats": { "histogram": true } },
+                    "paths": ["site_map.searchables.*.asset_metadata.info.tv_rating"],
+                    "type": "string"
+                  }
+                }
+              },
+              "type": "metadata-text"
+            }
+          },
+          "exceptions": [],
+          "last_run": "hq__A4XLpb4fjLnRYou8f6ZUArm7haVKjgtTnqxJBSXwdQbFNscRXfN18Rnq3UZgVX1bMqHmReEm1h",
+          "part": { "content": "index/content", "metadata": "index/metadata" },
+          "permissions": {
+            "perms": {},
+            "sorted_ids": [
+              "iq__39vwVPNjczBWa5LEnKGRd9bWQN9J",
+              "iq__4MyXwriZzDG25deHUFUNCDkmi6Az",
+              "iq__FKn6heeJkuv7xApmugiE7NLAm7W"
+            ]
+          },
+          "stats": {
+            "document": { "total": 3 },
+            "fields": {
+              "f_asset_type": {
+                "per_document": { "count": { "max": 1, "min": 0 } },
+                "value": {
+                  "histogram": { "primary": 1 },
+                  "max": "primary",
+                  "min": "primary",
+                  "total": 1,
+                  "unique": 1
+                }
+              },
+              "f_based_on": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_cast": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": { "total": 0 }
+              },
+              "f_community": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_display_title": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": { "total": 3 }
+              },
+              "f_franchise": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": { "total": 0 }
+              },
+              "f_genre": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_holiday": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_ip_title_id": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": {
+                  "histogram": {
+                    "01-llama-drama": 1,
+                    "02-gran-dilemna": 1,
+                    "03-caminandes-llamigos": 1
+                  },
+                  "max": "03-caminandes-llamigos",
+                  "min": "01-llama-drama",
+                  "total": 3,
+                  "unique": 3
+                }
+              },
+              "f_mpaa_rating": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_plot_theme": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_release_date": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_setting_city": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_setting_country": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_setting_region": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_setting_us_state": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_status": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_synopsis": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": { "total": 0 }
+              },
+              "f_time_period": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "f_title": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": {
+                  "histogram": {
+                    "01_llama_drama": 1,
+                    "02_gran_dilemna": 1,
+                    "03_caminandes_llamigos": 1
+                  },
+                  "max": "03_caminandes_llamigos",
+                  "min": "01_llama_drama",
+                  "total": 3,
+                  "unique": 3
+                }
+              },
+              "f_title_type": {
+                "per_document": { "count": { "max": 1, "min": 0 } },
+                "value": {
+                  "histogram": { "collection": 1 },
+                  "max": "collection",
+                  "min": "collection",
+                  "total": 1,
+                  "unique": 1
+                }
+              },
+              "f_tv_rating": {
+                "per_document": { "count": { "max": 0, "min": 0 } },
+                "value": {
+                  "histogram": {},
+                  "max": null,
+                  "min": null,
+                  "total": 0,
+                  "unique": 0
+                }
+              },
+              "has_field": {
+                "per_document": { "count": { "max": 5, "min": 3 } },
+                "value": { "total": 11 }
+              },
+              "hash": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": { "total": 3 }
+              },
+              "id": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": { "total": 3 }
+              },
+              "prefix": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": { "total": 3 }
+              },
+              "qlib_id": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": { "total": 3 }
+              },
+              "type": {
+                "per_document": { "count": { "max": 1, "min": 1 } },
+                "value": { "total": 3 }
+              }
+            }
+          }
+        },
+        "lro_status": {
+          "tlro1Ejer6FsWvFxrQVowQAu5Jby7CNHEgGC8u9C4DGPDTMrxWPnfSTzhe": {
+            "duration": 7647000000,
+            "duration_ms": 7647,
+            "end": "2022-04-01T02:16:35Z",
+            "progress": { "percentage": 0 },
+            "run_state": "finished",
+            "start": "2022-04-01T02:16:27Z"
+          }
+        },
+        "mime-types": { "": "application/octet-stream" },
+        "public": { "description": "", "name": "Index for site testv4 test site 1" }
+      }
+      "#;
